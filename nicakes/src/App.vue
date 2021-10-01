@@ -2,8 +2,7 @@
   <v-app>
     <AppTopBar />
     <v-main>
-      <v-container></v-container>
-      <router-view />
+          <router-view />
     </v-main>
   </v-app>
 </template>
@@ -30,7 +29,7 @@ export default {
 }
 
 #nav {
-  padding: 30px;
+  padding: 0px;
 
   a {
     font-weight: bold;

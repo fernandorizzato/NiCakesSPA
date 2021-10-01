@@ -1,8 +1,10 @@
 <template>
   <v-container class="pink lighten-4">
     <div class="contato">
+      <h2></h2>
       <h2>Endereço</h2>
       <p>Av. nome da avenida, número, bairro - cidade - estado</p>
+      <h2></h2>
       <h2>Contatos</h2>
       <p>E-mail: aaa@aaa.com.br</p>
       <p>Telefone: (11) 9999-9999 (11) 9999-9999</p>
@@ -13,6 +15,7 @@
       <p>Sáb: 6:30h as 23h</p>
       <p>Dom e feriados: 6:30 as 22:30</p>
     </div>
+    
   </v-container>
 </template>
 
@@ -23,4 +26,5 @@ export default {
 </script>
 
 <style scoped>
+
 </style>
